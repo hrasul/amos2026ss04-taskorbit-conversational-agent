@@ -259,7 +259,7 @@ variable "google_api_key" {
 
 variable "google_model" {
   type    = string
-  default = "gemini-2.5-flash"
+  default = "gemini-3.5-flash"
 
   validation {
     condition     = length(var.google_model) > 0

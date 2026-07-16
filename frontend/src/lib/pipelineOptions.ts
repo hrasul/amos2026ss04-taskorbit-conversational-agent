@@ -13,7 +13,7 @@ import type { LlmProvider, SttProvider, TtsProvider } from "@/types/agentConfig"
 
 export const LLM_MODELS: Record<LlmProvider, string[]> = {
   openai: ["gpt-4o-mini", "gpt-4o"],
-  gemini: ["gemini-2.5-flash", "gemini-2.5-pro"],
+  gemini: ["gemini-3.5-flash"],
   openrouter: [
     "qwen/qwen3-next-80b-a3b-instruct:free",
     "google/gemma-4-31b-it:free",

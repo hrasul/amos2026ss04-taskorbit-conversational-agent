@@ -86,7 +86,7 @@ class Settings(BaseSettings):
     openai_model: str = "gpt-4o-mini"
 
     google_api_key: str = ""
-    google_model: str = "gemini-2.5-flash"
+    google_model: str = "gemini-3.5-flash"
 
     # --- OpenRouter (open-source models via cloud proxy, free tier available) ---
     openrouter_api_key: str = ""

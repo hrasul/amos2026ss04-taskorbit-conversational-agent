@@ -75,7 +75,7 @@ def configure_default_metrics() -> None:
     m = get_metrics()
     _providers = [
         ("openai", "gpt-4o-mini"),
-        ("google", "gemini-2.5-flash"),
+        ("google", "gemini-3.5-flash"),
         # Open-source providers — pre-initialize with representative default models
         # so Grafana shows 0 from startup rather than "No data" until first request.
         # Add a new tuple here when onboarding a new OS provider.
